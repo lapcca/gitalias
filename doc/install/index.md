@@ -6,7 +6,7 @@
 Download the file [`gitalias.txt`](../../gitalias.txt) and include it:
 
 ```shell
-curl https://raw.githubusercontent.com/GitAlias/gitalias/main/gitalias.txt -o ~/.gitalias
+curl https://raw.githubusercontent.com/lapcca/gitalias/main/gitalias.txt -o ~/.gitalias
 git config --global include.path ~/.gitalias
 ```
 
@@ -16,7 +16,7 @@ git config --global include.path ~/.gitalias
 Download the file [`gitalias.txt`](../../gitalias.txt) any way you want, such as:
 
 ```shell
-curl -O https://raw.githubusercontent.com/GitAlias/gitalias/main/gitalias.txt
+curl -O https://raw.githubusercontent.com/lapcca/gitalias/main/gitalias.txt
 ```
 
 Manually edit your git config dot file any way you want, such as:
