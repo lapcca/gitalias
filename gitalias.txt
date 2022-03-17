@@ -77,6 +77,7 @@
   b = branch
   c = commit
   d = diff
+  dt = difftool
   f = fetch
   g = grep
   l = log
@@ -142,6 +143,12 @@
 
   # commit with a message
   cm = commit --message
+  
+  # commit all modified and deleted files with a message
+  calm = commit --all --message
+  
+  # commit - amend all modified and deleted files with a message
+  caalm = commit --amend --all --message
 
   ### checkout aliases ###
 
@@ -179,6 +186,9 @@
 
   # Show changes with our preferred options; a.k.a. `diff-deep`
   dd = diff-deep
+  
+  # show directory changes with third-party diff tool
+  dtr = difftool -d
 
   ### fetch aliases ###
 
