@@ -6,8 +6,8 @@
 Download the file [`gitalias.txt`](../../gitalias.txt) and include it:
 
 ```shell
-curl https://raw.githubusercontent.com/lapcca/gitalias/main/gitalias.txt -o ~/.gitalias
-git config --global include.path ~/.gitalias
+curl https://raw.githubusercontent.com/lapcca/gitalias/main/gitalias.txt -o ~/.mygitalias
+git config --global include.path ~/.mygitalias
 ```
 
 
